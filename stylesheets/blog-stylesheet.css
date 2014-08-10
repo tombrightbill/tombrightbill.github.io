@@ -1,3 +1,7 @@
+html{
+	padding:0px;
+	margin:0px;
+}
 body{
 	background-image:url("../../phase-0-unit-1/week-1/imgs/background.jpg");
 	text-align:center;
@@ -52,12 +56,12 @@ h1{
 	text-align:center;
 	padding:0px;
 	margin:0px;
-	min-height: 100%
+	min-height: 100%;
 	position:relative;
 }
 #text_img_container{
 	width:60%;
-	height:400px;
+	height:800px;
 	padding-left:10px;
 	margin: 0 auto;
 	padding-top:10px;
@@ -66,15 +70,16 @@ h1{
 }
 #footer{
 	margin-bottom:0px;
-	margin-left: 298px;
-	width:802px;
+	margin-left: 290px;
+	width:810px;
 	text-align: left;
 	padding:0px;
+	padding-left:5px;
 	padding-top: 10px;
 	padding-bottom:10px;
     background-color:#8CDD81;
 	bottom:0px;
-	position:fixed;
+	position:absolute;
 	font-family: times, Times New Roman, times-roman, georgia, serif;
 	letter-spacing: -1px;
     color: #444;
@@ -88,15 +93,20 @@ h1{
 	margin-right:15px;
 	padding:5px;
 	border: 2px solid green;
+	border-radius:1em;
 }
 p.img_text{
 	margin-top:20px;
 	text-align:left;
-	margin-left:10px;
+	margin-left:20px;
 	display:block;
-	width:805px;
+	width:785px;
 	line-height:2;
 	font-family: times, Times New Roman, times-roman, georgia, serif;
 	color: #444;
+}
+
+a.web_link{
+    color:green;
 }
 
