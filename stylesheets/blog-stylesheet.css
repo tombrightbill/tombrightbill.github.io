@@ -3,7 +3,7 @@ html{
 	margin:0px;
 }
 body{
-	background-image:url("https://github.com/tombrightbill/phase-0-unit-1/blob/master/week-1/imgs/background.jpg");
+	background-image:url("https://raw.githubusercontent.com/tombrightbill/phase-0-unit-1/master/week-1/imgs/background.jpg?token=7698525__eyJzY29wZSI6IlJhd0Jsb2I6dG9tYnJpZ2h0YmlsbC9waGFzZS0wLXVuaXQtMS9tYXN0ZXIvd2Vlay0xL2ltZ3MvYmFja2dyb3VuZC5qcGciLCJleHBpcmVzIjoxNDA4MzExMjI2fQ%3D%3D--c0c5b39316f149565a569830183ac26c22872c3b");
 	text-align:center;
 	color: white;
 }
