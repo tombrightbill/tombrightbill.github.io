@@ -1,0 +1,78 @@
+body{
+	background-image:url("../../phase-0-unit-1/week-1/imgs/background.jpg");
+	text-align:center;
+	color: white;
+}
+
+table{
+	padding-left:10px;
+	margin: 0 286 200;
+	width: 815px;
+	text-align:center;
+	
+}
+
+td{
+	width: 25%;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 25px;
+	line-height: 40px;
+	letter-spacing: -1px;
+    color: #444;
+    border: 1px solid green;
+    border-radius: .5em;
+    padding:0;
+    background-color:#8CDD81;
+}
+
+a{
+	text-decoration: none;
+	color:#444;
+}
+a:hover, td:hover{
+	background-color: #CCFFCC;
+}
+
+.logo{
+	height:20px;
+	width:20px;
+}
+h1{
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 60px;
+	letter-spacing: -1px;
+    color: #444;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    margin:0px;
+    font-weight: 100;
+}
+#wrapper{
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+#text_area{
+	width:60%;
+	height:400px;
+	padding-left:10px;
+	margin: 0 auto;
+	padding-top:10px;
+	text-align:center;
+}
+#footer{
+	margin-bottom:0px;
+	margin-left: 290px;
+	width:817px;
+	text-align: left;
+	padding:0px;
+	padding-top: 10px;
+	padding-bottom:10px;
+    background-color:#8CDD81;
+	bottom:0px;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	letter-spacing: -1px;
+    color: #444;
+    border: 1px solid green;
+}
