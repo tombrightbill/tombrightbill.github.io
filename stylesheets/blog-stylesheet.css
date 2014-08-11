@@ -19,7 +19,7 @@ html{
 
 
 #intro{
-	background-image: url('file:///Users/tombrightbill/Desktop/intro_background.jpg');
+	background-image: url('https://raw.githubusercontent.com/tombrightbill/phase-0-unit-1/master/week-1/imgs/intro_background.jpg?token=7698525__eyJzY29wZSI6IlJhd0Jsb2I6dG9tYnJpZ2h0YmlsbC9waGFzZS0wLXVuaXQtMS9tYXN0ZXIvd2Vlay0xL2ltZ3MvaW50cm9fYmFja2dyb3VuZC5qcGciLCJleHBpcmVzIjoxNDA4MzMzNTUzfQ%3D%3D--4995482e3e9e5a877daa74550259c728589ab6ad');
 	width:768px;
 	margin:15px auto 0px auto;
 
