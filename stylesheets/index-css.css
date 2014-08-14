@@ -2,15 +2,18 @@ html{
 	background-color:#CFDBC5;
 	margin:0px;
 	padding:0px;
+	position:relative;
 }
 #table{
 	background-color:#003300;
 	width:100%;
 	text-align:center;
-	padding-top:5px;
+	padding-top:15px;
 	padding-bottom:15px;
 	font-family: 'Lato', sans-serif;
+	position:relative;
 }
+
 #table a:link{
 	color:white;
 	text-decoration: none;
@@ -28,22 +31,23 @@ html{
 #intro{
 	background-image: url('https://raw.githubusercontent.com/tombrightbill/phase-0-unit-1/master/week-1/imgs/intro_background.jpg?token=7698525__eyJzY29wZSI6IlJhd0Jsb2I6dG9tYnJpZ2h0YmlsbC9waGFzZS0wLXVuaXQtMS9tYXN0ZXIvd2Vlay0xL2ltZ3MvaW50cm9fYmFja2dyb3VuZC5qcGciLCJleHBpcmVzIjoxNDA4MzMzNTUzfQ%3D%3D--4995482e3e9e5a877daa74550259c728589ab6ad');
 	width:768px;
-	margin:15px auto 0px auto;
+	margin: 15px auto;
 
 }
 #intro h1{
 	color:white;
-	padding: 200px 200px;
+	padding: 50px 100px;
 	font-size: 45px;
-	margin:0px;
 }
-#post{
+#about{
 	margin:25px auto;
 	width: 70%;
 	padding:15px;
 	background-color:#96C8A2;
 	font-family: 'Lato', sans-serif;
 	font-weight:400;
+	position:relative;
+	overflow:auto;
 }
 #footer{
 	position:relative;
@@ -55,9 +59,27 @@ html{
 	color:white;
 	width: 100%;
 	font-family: 'Lato', sans-serif;
-	padding-top:15px;
+	padding-top:10px;
 	padding-bottom:15px;
+	margin-top:15px;
 }
+#moneymaker{
+	margin:20px;
+	height:300px;
+	width:180px;
+	float:right;
+}
+#social{
+	float:right;
+	display:inline-block;
+	padding-right:10px;
+	vertical-align: center;
+	border-left: 2px solid white;
+}
+#links{
+	display:inline-block;
+}
+
 @media all and (max-width: 700px){
 	#intro{
 		width:100%;
@@ -67,5 +89,13 @@ html{
 		width:100%;
 		font-size:25px;
 		padding:25px;
+	}
+	#about{
+		text-align:center;
+	}
+	#moneymaker{
+		float:none;
+		margin:0px auto;
+	
 	}
 }
