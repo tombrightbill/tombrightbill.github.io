@@ -1,0 +1,46 @@
+/* include your css here */
+
+#wrapper{
+        background-color:#6996AD;
+        height:100%;
+        font-family: "Lobster", cursive;
+    }
+    #wave{
+        background-image:url('http://fc00.deviantart.net/fs70/i/2012/139/7/6/great_wave_off_kanagawa_by_vladdyboy-d50dazy.jpg');
+        background-size:100%;
+    }
+    h1{
+        text-align:right;
+        padding-top:50px;
+        padding-bottom:50px;
+        margin-bottom:0px;
+        padding-right:30px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    #name{
+        text-align:right;
+        font-size:.85em;
+        padding-bottom:50px;
+        padding-right:35px;
+    }
+    .question{
+        background-color:#82CFFD;
+        margin:15px;
+        padding:10px;
+        overflow:auto;
+    }
+    #navigator{
+        float:left;
+        width:45%;
+        background-color:#4F94CD;
+    }
+    #driver{
+        float:left;
+        width:45%;
+        background-color:#4F94CD;
+        margin-right:30px;
+    }
