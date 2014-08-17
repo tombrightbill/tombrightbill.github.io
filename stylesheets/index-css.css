@@ -50,7 +50,7 @@ html{
 	
 #header a:hover{
 	color:#ffffe4;
-	font-size:.90em;
+	border-bottom:1px solid white;
 }
 #header a:visited{
 	color: white;

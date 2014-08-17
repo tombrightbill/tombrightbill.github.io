@@ -50,7 +50,7 @@ html{
 	
 #header a:hover{
 	color:#ffffe4;
-	font-size:.90em;
+	border-bottom:1px solid white;
 }
 #header a:visited{
 	color: white;
@@ -92,6 +92,19 @@ html{
 }
 li{
 	list-style-type: none;
+	padding:10px;
+}
+li a{
+    color:white;
+	text-decoration: none;
+}
+
+	
+li a:hover{
+	color:#ffffe4;
+}
+li a:visited{
+	color: white;
 }
 
 
@@ -111,21 +124,33 @@ li{
 }
 
 @media all and (max-width: 700px){
-	#intro{
-		width:100%;
-		text-align:center;
-	}
-	#intro h1{
+    #links{
+    	float:left;
+    	padding-left:5px;
+    }
+    #header{
+    	overflow:auto;
+    }
+    #intro h1{
 		width:100%;
 		font-size:25px;
 		padding:25px;
 	}
+	#project_intro{
+		width:80%;
+		text-align:left;
+	}
+	#project_intro h1{
+		font-size:25px;
+		padding:25px;
+	}
+	#project_intro img{
+		float:none;
+		margin:0px auto;
+		padding:0px;
+	}
 	#about{
 		text-align:center;
 	}
-	#moneymaker{
-		float:none;
-		margin:0px auto;
 	
-	}
 }
