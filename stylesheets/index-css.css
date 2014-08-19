@@ -63,16 +63,47 @@ html{
 	padding-right:10px;
 	vertical-align: center;
 	border-left: 2px solid white;
+	padding-left:5px;
+	top:30px;
 }
 #social a{
 
 }
 #links{
-	display:inline-block;
+	margin:0px auto;
 }
-#links a{
+	#links li{
+		list-style: none;
+		margin:0px auto;
+		display:inline-block;
+		position:relative;
+			}
+	#links li a{
+		display:block;
+		text-decoration: none;
 
-}
+			}
+		#links li ul{
+			display:none;
+			text-align:left;
+		}
+		#links li:hover ul{
+			display:block;
+			position:absolute;
+			left:0px;
+			margin:0px;
+			padding:0px;
+			background-color:#003300;
+			border-collapse: collapse;
+		}
+		#links li:hover ul li{
+			display:block;
+			text-align:left;
+			border-bottom:1px solid white;
+		}
+		/*#links li:hover li{
+			float:none;
+		}*/
 
 
 #footer{
