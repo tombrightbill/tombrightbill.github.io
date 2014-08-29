@@ -5,14 +5,15 @@ html{
 	position:relative;
 }
 #intro{
-	background-image: url('https://raw.githubusercontent.com/tombrightbill/phase-0-unit-1/master/week-1/imgs/intro_background.jpg?token=7698525__eyJzY29wZSI6IlJhd0Jsb2I6dG9tYnJpZ2h0YmlsbC9waGFzZS0wLXVuaXQtMS9tYXN0ZXIvd2Vlay0xL2ltZ3MvaW50cm9fYmFja2dyb3VuZC5qcGciLCJleHBpcmVzIjoxNDA5MDg4Mjg4fQ%3D%3D--27fb3c620332f9824479348635e9153dc175f4d5');
-	width:768px;
-	margin: 15px auto;
+	background: url(../images/background.jpg) no-repeat top center fixed;
+	width:100%;
+	margin: 15px;
+	opacity:.9
 
 }
 #intro h1{
 	color:white;
-	padding: 50px 100px;
+	padding: 150px 300px;
 	font-size: 45px;
 }
 #about{
@@ -62,11 +63,13 @@ html{
 	display:inline-block;
 	padding-right:10px;
 	vertical-align: center;
-	border-left: 2px solid white;
 	padding-left:5px;
 	top:30px;
 }
-#social a{
+#social .fa{
+	color:white;
+	font-size: 1.25em;
+	padding:0px 5px;
 
 }
 #links{
@@ -86,6 +89,7 @@ html{
 		#links li ul{
 			display:none;
 			text-align:left;
+			z-index: 100;
 		}
 		#links li:hover ul{
 			display:block;

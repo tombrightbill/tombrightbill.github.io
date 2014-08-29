@@ -3,6 +3,7 @@
     <title>Tom Brightbill: Lost in Translation</title>
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href='../font-awesome/css/font-awesome.min.css' rel='stylesheet' type="text/css">
   </head>
   <body>
   <div id="header">        
@@ -18,9 +19,9 @@
         </ul>
         </div>
         <div id="social">  
-          <a href="mailto:tombrightbill@gmail.com"><img id='email' src='../images/email.png'/></a>
-          <a href="http://www.linkedin.com/pub/tom-brightbill/32/559/a98/"><img id='linkedin' src='../images/linkedin.png'/></a>
-          <a href="https://github.com/tombrightbill"><img id='github' src='../images/github.png'/></a>
+          <a href="mailto:tombrightbill@gmail.com"><i class='fa fa-envelope'></i></a>
+          <a href="http://www.linkedin.com/pub/tom-brightbill/32/559/a98/"><i class='fa fa-linkedin-square'></i></a>
+          <a href="https://github.com/tombrightbill"><i class='fa fa-github-alt'></i></a>
         </div>
       </div>
       <div id='intro'>
@@ -30,6 +31,13 @@
         <h1 class='title'>Technical Blog</h1>
         <p>Thanks for stopping by. This is my technical blog. Each week are tasked to write on a technical concept that interests us. Check back often as the content is updated frequently!</p>
       </div><!--end intro div-->
+      <div id='post'>
+        <h1 class="title">Post Three: All About Hashes</h1>
+        <p>One of the most common data structures in Ruby is called a hash. A hash can most easily be understood as something similar to an array, but rather than having numeric indices, they can be whatever you want! Pretty cool.</p>
+        <p>Effectively, you can determine the key and value of the hash object. This is different than an array where the key is always pretermined(numeric starting from index[0]). For example, I could have a key of 'brother', 'mother', and 'father', with corresponding values of 'John', 'Mary' and 'Tom Sr.'. This could be defined within a hash called 'family'</p>
+        <p>There are a number of ways to intialize a hash. At the moment I think the easiest is the following: <code>family= {'brother'=>'John', 'father'=> 'Tom Sr', 'mother'=>'Mary'}</code></p>
+        <p>In the code above you can see I've set the key 'brother'='John' and so on. If I call <code>family['brother']</code> it will return <code>'John'</code>. Additionally if you are iterating over a hash you can pass two values and have access to both the keys and the values in the hash!</p>
+      </div>
       <div id='post'>
         <h1 class="title">Post Two: Why Javascript?</h1>
         <p>In this post I will discuss my understanding of the applications of Javascript thus far.</p>

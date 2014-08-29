@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="310px" height="266px" viewBox="0 0 310 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    
+    <title>chart-overall-g</title>
+    <style>@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);</style>
+    <description></description>
+    <defs></defs>
+    <g id="Maia-template" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chart-overall-g">
+            <circle id="Oval-9" fill="#EEEEEE" cx="213.5" cy="151.5" r="91.5"></circle>
+            <path d="M213.5,229 C256.302068,229 291,194.302068 291,151.5 C291,108.697932 256.302068,74 213.5,74 C170.697932,74 136,108.697932 136,151.5 C136,194.302068 170.697932,229 213.5,229 Z" id="Oval-11" fill="#F6BF26"></path>
+            <path d="M215,74.0142261 C257.109796,74.8135952 291,109.199057 291,151.5 C291,194.302068 256.302068,229 213.5,229 C180.544127,229 152.392694,208.429742 141.184749,179.428272 L215,155.56133 L215,74.0142261 Z" id="Oval-10" fill="#EE8100"></path>
+            <path d="M213.5,203 C241.942665,203 265,179.942665 265,151.5 C265,123.057335 241.942665,100 213.5,100 C185.057335,100 162,123.057335 162,151.5 C162,179.942665 185.057335,203 213.5,203 Z" id="Oval-12" fill="#FAFAFA"></path>
+            <g id="Gender-2" transform="translate(0.000000, 75.000000)">
+                <text id="70%" font-family="Open Sans" font-size="24" font-weight="300" fill="#EE8100">
+                    <tspan x="2" y="167">70%</tspan>
+                </text>
+                <text id="30%" font-family="Open Sans" font-size="24" font-weight="300" fill="#EE8100">
+                    <tspan x="3" y="41">30%</tspan>
+                </text>
+                <path d="M125.524994,129 L0.499260426,129" id="Stroke-44" stroke="#EBEBEB"></path>
+                <path d="M145.507812,1 L1.49334335,1" id="Line" stroke="#EBEBEB"></path>
+                <text id="Men" font-family="Open Sans" font-size="13" font-weight="300" fill="#444444">
+                    <tspan x="2" y="143">Men</tspan>
+                </text>
+                <text id="Women" font-family="Open Sans" font-size="13" font-weight="300" fill="#444444">
+                    <tspan x="3" y="18">Women</tspan>
+                </text>
+            </g>
+            <text id="Gender" font-family="Open Sans" font-size="13" font-weight="300" fill="#616161">
+                <tspan x="191" y="156">Gender</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
