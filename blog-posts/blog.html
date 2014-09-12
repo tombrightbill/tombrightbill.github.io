@@ -32,6 +32,41 @@
         <p>Thanks for stopping by. This is my technical blog. Each week are tasked to write on a technical concept that interests us. Check back often as the content is updated frequently!</p>
       </div><!--end intro div-->
       <div id='post'>
+        <h1 class="title">Post Five: Scopin' out Varibles</h1>
+        <p>What on earth is variable scope? For something that sounds somewhat intimidating, the concept is remarkably simple. <i>Variable scope defines where in a program a variable is accessible</i></p>
+        <p>Ruby has four types of variable scope; global, class, instance, and local. Let's break down each one</p>
+        <p>Global scope is the highest order scope. Any global variable is defined by the <code>$</code> prefix. Any variable defined this way is accessible by any and all parts of a program <i>regardless of where it is defined</i>. Best practices discourage over use of this type of scope because the variable can be modified by any part of your program. This can make tracking bugs difficult</p>
+        <p>Class scope applies to a class as a whole. In my previous post, consider the 'Honda Accord' class. What is we wanted to know the total number of Accords that had been initialized? Clearly, this variable's scope is larger than just the instance, because we want it to apply to ALL Honda Accords. To do this, we use the <code>@@</code> symbol to define a class variable.</p>
+        <p>As demonstrated in the last post, instance variables are created using the <code>@</code> symbol and exist for each instance of a particular class. Local variables, as you might have guessed are only accesible within the method that calls them. For example, a variable within a loop or something similar. Cheers!</p>
+      </div>
+      <div id='post'>
+        <h1 class="title">Post Four: You Classy Huh?</h1>
+        <p>This post will cover classes, which can be most easily explained using a real world example. Let's say you drive a Honda Accord, and you've named your car Max. Your car has a number of attributes, shared amongst all Honda Accords. It get 25mpg, has a full tank capacity of 10 gallons, and can seat 5. You car Max, is a specific instance of a Honda Accord.</p>
+        <p>In Ruby, or any Object Oriented Language, the 'Honda Accord' would be the 'class' and you car 'Max' would be an instance of the class 'Honda Accord'. 'Max' would have a number of characteristics shared amongst all in the 'Honda Accord' class, but may also have some attributes that apply only to that instance, such as 'owner' and 'color'. Let's go ahead and create the 'Honda Accord' class to see what I mean.</p>
+        <div id="blockcode">
+        <code>Class Honda_Accord</code>
+                <code>attr_reader :owner, :color, :mpg, :tank</code>
+
+                <code>def initialize(owner, color)</code>
+                  <code>@owner = owner</code>
+                  <code>@color = color</code>
+                  <code>@mpg = 25</code>
+                  <code>@tank = 11</code>
+                <code>end</code>
+
+                <code>def drive_highway(hours)</code>
+                  <code>@tank-= (hours*50)/25</code>
+                <code>end</code>
+
+                <code>def change_owner(new_owner)</code>
+                  <code>@owner = new_owner</code>
+                <code>end</code>
+              <code>end</code>
+            <code>Max = Honda_Accord.new('Tom', 'British Racing Green')</code>
+      </div>
+      <p>So what we have done here is create a class called 'Honda_Accord' and assign certain attributes to the class. It has an owner attribute, which is assigned when an instance is created (i.e. 'Max'). Sae with the color attribute. We've got an mpg attribute, and a tank attribute (number of gallons it can hold). The funny '@' simply means that each instance of this class will have this variable when it is initialized. Additionally, we've defined some methods to go with our class so if I called <code>Max.drive_highway(3)</code> it would subtract (50 miles/hour * 3 hours)/25 miles per gallons = 6 gallons from the full tank so we would have 5 gallons left. The funky <code>attr_reader</code> simply means that certain instance variables can be called on and viewed. For example I can call <code> Max.owner</code> and <code>Max.tank</code> which will return 'Tom' and '5' respectively (assuming we go through with our <code>Max.drive_highway(3)</code> call).</p>
+      </div>
+      <div id='post'>
         <h1 class="title">Post Three: All About Hashes</h1>
         <p>One of the most common data structures in Ruby is called a hash. A hash can most easily be understood as something similar to an array, but rather than having numeric indices, they can be whatever you want! Pretty cool.</p>
         <p>Effectively, you can determine the key and value of the hash object. This is different than an array where the key is always pretermined(numeric starting from index[0]). For example, I could have a key of 'brother', 'mother', and 'father', with corresponding values of 'John', 'Mary' and 'Tom Sr.'. This could be defined within a hash called 'family'</p>

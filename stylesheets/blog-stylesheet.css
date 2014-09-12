@@ -127,6 +127,10 @@ html{
 	font-family: 'Lato', sans-serif;
 	font-weight:400;
 }
+
+#blockcode code{
+	display:block;
+}
 .left{
 	display: inline-block;
 }
