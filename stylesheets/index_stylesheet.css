@@ -2,39 +2,6 @@ html{
 	background-color:#CFDBC5;
 	margin:0px;
 	padding:0px;
-	position:relative;
-}
-#intro{
-	background: url(../images/background.jpg) no-repeat top center fixed;
-	width:100%;
-	margin: 15px;
-	opacity:.9
-
-}
-#intro h1{
-	color:white;
-	padding: 150px 300px;
-	font-size: 45px;
-}
-
-#intro .fa{
-	font-size: 30px;
-}
-#about{
-	margin:25px auto;
-	width: 70%;
-	padding:15px;
-	background-color:#96C8A2;
-	font-family: 'Lato', sans-serif;
-	font-weight:400;
-	position:relative;
-	overflow:auto;
-}
-#moneymaker{
-	margin:20px;
-	height:300px;
-	width:180px;
-	float:right;
 }
 #header{
 	background-color:#003300;
@@ -72,13 +39,9 @@ html{
 }
 #social .fa{
 	color:white;
-	font-size: 1.1em;
+	font-size: 1.25em;
 	padding:0px 5px;
 
-}
-
-#links .fa-caret-down{
-	font-size: .5em;
 }
 #links{
 	margin:0px auto;
@@ -99,9 +62,6 @@ html{
 			text-align:left;
 			z-index: 100;
 		}
-		#blog_dropdown:hover{
-			background-color: #003300;;
-		}
 		#links li:hover ul{
 			display:block;
 			position:absolute;
@@ -110,18 +70,66 @@ html{
 			padding:0px;
 			background-color:#003300;
 			border-collapse: collapse;
-
 		}
 		#links li:hover ul li{
 			display:block;
 			text-align:left;
-			border-bottom: 1px solid white;
+			border-bottom:1px solid white;
+			padding-left:0px;
 		}
 		/*#links li:hover li{
 			float:none;
 		}*/
 
+#intro{
+	background: url(../images/background.jpg) no-repeat top center fixed;
+	width:100%;
+	margin: 15px;
+	opacity:.9
 
+}
+#intro h1{
+	color:white;
+	padding: 150px 300px;
+	font-size: 45px;
+}
+
+.fa-caret-square-o-right{
+	opacity:.5;
+}
+
+#post, #post_links{
+	margin:25px auto;
+	width: 70%;
+	padding:15px;
+	background-color:#96C8A2;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+}
+#post_links{
+	text-align: left;
+}
+#post_links li{
+	list-style-type: none;
+	line-height: 2em;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	display:block;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+#post_links li .post_title{
+    color:white;
+	text-decoration: none;
+}
+
+	
+li a:hover{
+	color:#ffffe4;
+}
+li a:visited{
+	color: white;
+}
 #footer{
 	position:relative;
 	background-color:#003300;
@@ -132,11 +140,9 @@ html{
 	color:white;
 	width: 100%;
 	font-family: 'Lato', sans-serif;
-	padding-top:10px;
+	padding-top:15px;
 	padding-bottom:15px;
-	margin-top:15px;
 }
-
 @media all and (max-width: 700px){
 	#intro{
 		width:100%;
@@ -146,13 +152,5 @@ html{
 		width:100%;
 		font-size:25px;
 		padding:25px;
-	}
-	#about{
-		text-align:center;
-	}
-	#moneymaker{
-		float:none;
-		margin:0px auto;
-	
 	}
 }

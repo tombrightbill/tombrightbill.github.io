@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Tom Brightbill: Lost in Translation</title>
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/blog-stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href='../../font-awesome/css/font-awesome.min.css' rel='stylesheet' type="text/css">
+  </head>
+  <body>
+  <div id="header">        
+        <ul id='links'>
+          <li><a href="../../index.html"> Home</a></li>
+          <li><a href="../../Projects/projects.html"> Projects</a></li>
+          <li><a href='../technical_blog_index.html'>Tech</a></li>
+          <li><a href='../cultural_blog_index.html'>Culture</a></li> 
+        </ul>
+        </div>
+       <div id="social">  
+          <a href="mailto:tombrightbill@gmail.com"><i class='fa fa-envelope'></i></a>
+          <a href="http://www.linkedin.com/pub/tom-brightbill/32/559/a98/"><i class='fa fa-linkedin-square'></i></a>
+          <a href="https://github.com/tombrightbill"><i class='fa fa-github-alt'></i></a>
+        </div>
+  </div>
+   <div id='post'>
+        <h1 class="title">Post Five: Scopin' out Varibles</h1>
+        <p>What on earth is variable scope? For something that sounds somewhat intimidating, the concept is remarkably simple. <i>Variable scope defines where in a program a variable is accessible</i></p>
+        <p>Ruby has four types of variable scope; global, class, instance, and local. Let's break down each one</p>
+        <p>Global scope is the highest order scope. Any global variable is defined by the <code>$</code> prefix. Any variable defined this way is accessible by any and all parts of a program <i>regardless of where it is defined</i>. Best practices discourage over use of this type of scope because the variable can be modified by any part of your program. This can make tracking bugs difficult</p>
+        <p>Class scope applies to a class as a whole. In my previous post, consider the 'Honda Accord' class. What is we wanted to know the total number of Accords that had been initialized? Clearly, this variable's scope is larger than just the instance, because we want it to apply to ALL Honda Accords. To do this, we use the <code>@@</code> symbol to define a class variable.</p>
+        <p>As demonstrated in the last post, instance variables are created using the <code>@</code> symbol and exist for each instance of a particular class. Local variables, as you might have guessed are only accesible within the method that calls them. For example, a variable within a loop or something similar. Cheers!</p>
+      </div>
+      <div id="footer">
+        Tom Brightbill &copy 2014
+      </div>
+
+  </body>
+</html>
