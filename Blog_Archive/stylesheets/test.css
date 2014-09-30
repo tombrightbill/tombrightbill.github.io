@@ -9,7 +9,7 @@ html{
 	position:relative;
 }
 #intro{
-	background: url(../images/background.jpg) no-repeat top center fixed;
+	background: url(images/test_fadeout_image.jpeg) no-repeat top center fixed;
 	width:100%;
 	margin: 15px;
 	opacity:.9
