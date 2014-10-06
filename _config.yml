@@ -1,53 +1,61 @@
-# Site wide configuration
-
-title: Site Title
-locale: en_US
-description: Describe your website here.
-logo: site-logo.png
-search: true
-url: 
-
-
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
+# Build settings
+markdown: redcarpet
 highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  use_coderay: false
+# Site settings
+title: "Lost. In. Translation."
+description: > # this means to ignore newlines until "email:"
+   From Zero to Web Developer
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+email: tombrightbill@gmail.com
+#blog logo
+logo: "/assets/images/tb_logo.png"
+# blog cover
+cover: "/assets/images/background.jpg"
+
+name: 'Tom Brightbill'
+author: 'Tom Brightbill'
+author_image: "/assets/images/tom_mustache.jpg"
+
+paginate:	5
+
+url: "localhost:4000" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	envelope
+    url:	mailto:tombrightbill@gmail.com
+    desc: Drop me an email!
+    share_url: 
+    share_title: 
+    share_link: 
+
+  - icon: linkedin
+    url:  https://www.linkedin.com/pub/tom-brightbill/32/559/a98
+    desc: Connect with me on LinkedIn
+    share_url: 
+    share_title: 
+    share_link: 
+ # - icon:	facebook
+ #   url:	https://facebook.com/???
+ #   desc: Connect with me facebook
+ #   share_url: //www.facebook.com/sharer.php
+ #   share_title: ?t=
+ #   share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/dirkfabisch
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
 
 
-# Site owner
-owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot: 
-  bing-verify:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
